@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F8DBE62CDDEC60003C0F13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F8DBDB2CDDEC60003C0F13 /* Preview Assets.xcassets */; };
+		C7F8DBE72CDDEC60003C0F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7F8DBDD2CDDEC60003C0F13 /* Assets.xcassets */; };
+		C7F8DBE92CDDEC60003C0F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBDE2CDDEC60003C0F13 /* ContentView.swift */; };
+		C7F8DBEA2CDDEC60003C0F13 /* LoveMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBE12CDDEC60003C0F13 /* LoveMemo.xcdatamodeld */; };
+		C7F8DBEB2CDDEC60003C0F13 /* LoveMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBE22CDDEC60003C0F13 /* LoveMemoApp.swift */; };
+		C7F8DBEC2CDDEC60003C0F13 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBE32CDDEC60003C0F13 /* Persistence.swift */; };
+		C7F8DBEF2CDDEC64003C0F13 /* LoveMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBED2CDDEC64003C0F13 /* LoveMemoTests.swift */; };
+		C7F8DBF32CDDEC68003C0F13 /* LoveMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBF02CDDEC68003C0F13 /* LoveMemoUITests.swift */; };
+		C7F8DBF42CDDEC68003C0F13 /* LoveMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F8DBF12CDDEC68003C0F13 /* LoveMemoUITestsLaunchTests.swift */; };
+		C7F8DBF92CDDEE97003C0F13 /* MyParticleSnow.sks in Resources */ = {isa = PBXBuildFile; fileRef = C7F8DBF82CDDEE97003C0F13 /* MyParticleSnow.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7F8DBBE2CDDEC3C003C0F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F8DB9E2CDDEC3A003C0F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F8DBA52CDDEC3A003C0F13;
+			remoteInfo = LoveMemo;
+		};
+		C7F8DBC82CDDEC3C003C0F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F8DB9E2CDDEC3A003C0F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F8DBA52CDDEC3A003C0F13;
+			remoteInfo = LoveMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7F8DBA62CDDEC3A003C0F13 /* LoveMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8DBBD2CDDEC3C003C0F13 /* LoveMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8DBC72CDDEC3C003C0F13 /* LoveMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8DBDB2CDDEC60003C0F13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7F8DBDD2CDDEC60003C0F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7F8DBDE2CDDEC60003C0F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7F8DBDF2CDDEC60003C0F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7F8DBE02CDDEC60003C0F13 /* LoveMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoveMemo.entitlements; sourceTree = "<group>"; };
+		C7F8DBE22CDDEC60003C0F13 /* LoveMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMemoApp.swift; sourceTree = "<group>"; };
+		C7F8DBE32CDDEC60003C0F13 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C7F8DBE52CDDEC60003C0F13 /* LoveMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoveMemo.xcdatamodel; sourceTree = "<group>"; };
+		C7F8DBED2CDDEC64003C0F13 /* LoveMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMemoTests.swift; sourceTree = "<group>"; };
+		C7F8DBF02CDDEC68003C0F13 /* LoveMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMemoUITests.swift; sourceTree = "<group>"; };
+		C7F8DBF12CDDEC68003C0F13 /* LoveMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C7F8DBF82CDDEE97003C0F13 /* MyParticleSnow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticleSnow.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F8DBA32CDDEC3A003C0F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8DBBA2CDDEC3C003C0F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8DBC42CDDEC3C003C0F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F8DB9D2CDDEC3A003C0F13 = {
+			isa = PBXGroup;
+			children = (
+				C7F8DBE42CDDEC60003C0F13 /* LoveMemo */,
+				C7F8DBEE2CDDEC64003C0F13 /* LoveMemoTests */,
+				C7F8DBF22CDDEC68003C0F13 /* LoveMemoUITests */,
+				C7F8DBA72CDDEC3A003C0F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F8DBA72CDDEC3A003C0F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8DBA62CDDEC3A003C0F13 /* LoveMemo.app */,
+				C7F8DBBD2CDDEC3C003C0F13 /* LoveMemoTests.xctest */,
+				C7F8DBC72CDDEC3C003C0F13 /* LoveMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F8DBDC2CDDEC60003C0F13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8DBDB2CDDEC60003C0F13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7F8DBE42CDDEC60003C0F13 /* LoveMemo */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8DBDC2CDDEC60003C0F13 /* Preview Content */,
+				C7F8DBDD2CDDEC60003C0F13 /* Assets.xcassets */,
+				C7F8DBDE2CDDEC60003C0F13 /* ContentView.swift */,
+				C7F8DBF82CDDEE97003C0F13 /* MyParticleSnow.sks */,
+				C7F8DBDF2CDDEC60003C0F13 /* Info.plist */,
+				C7F8DBE02CDDEC60003C0F13 /* LoveMemo.entitlements */,
+				C7F8DBE12CDDEC60003C0F13 /* LoveMemo.xcdatamodeld */,
+				C7F8DBE22CDDEC60003C0F13 /* LoveMemoApp.swift */,
+				C7F8DBE32CDDEC60003C0F13 /* Persistence.swift */,
+			);
+			path = LoveMemo;
+			sourceTree = "<group>";
+		};
+		C7F8DBEE2CDDEC64003C0F13 /* LoveMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8DBED2CDDEC64003C0F13 /* LoveMemoTests.swift */,
+			);
+			path = LoveMemoTests;
+			sourceTree = "<group>";
+		};
+		C7F8DBF22CDDEC68003C0F13 /* LoveMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8DBF02CDDEC68003C0F13 /* LoveMemoUITests.swift */,
+				C7F8DBF12CDDEC68003C0F13 /* LoveMemoUITestsLaunchTests.swift */,
+			);
+			path = LoveMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F8DBA52CDDEC3A003C0F13 /* LoveMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F8DBD02CDDEC3C003C0F13 /* Build configuration list for PBXNativeTarget "LoveMemo" */;
+			buildPhases = (
+				C7F8DBA22CDDEC3A003C0F13 /* Sources */,
+				C7F8DBA32CDDEC3A003C0F13 /* Frameworks */,
+				C7F8DBA42CDDEC3A003C0F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveMemo;
+			packageProductDependencies = (
+			);
+			productName = LoveMemo;
+			productReference = C7F8DBA62CDDEC3A003C0F13 /* LoveMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7F8DBBC2CDDEC3C003C0F13 /* LoveMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F8DBD52CDDEC3C003C0F13 /* Build configuration list for PBXNativeTarget "LoveMemoTests" */;
+			buildPhases = (
+				C7F8DBB92CDDEC3C003C0F13 /* Sources */,
+				C7F8DBBA2CDDEC3C003C0F13 /* Frameworks */,
+				C7F8DBBB2CDDEC3C003C0F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7F8DBBF2CDDEC3C003C0F13 /* PBXTargetDependency */,
+			);
+			name = LoveMemoTests;
+			packageProductDependencies = (
+			);
+			productName = LoveMemoTests;
+			productReference = C7F8DBBD2CDDEC3C003C0F13 /* LoveMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7F8DBC62CDDEC3C003C0F13 /* LoveMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F8DBD82CDDEC3C003C0F13 /* Build configuration list for PBXNativeTarget "LoveMemoUITests" */;
+			buildPhases = (
+				C7F8DBC32CDDEC3C003C0F13 /* Sources */,
+				C7F8DBC42CDDEC3C003C0F13 /* Frameworks */,
+				C7F8DBC52CDDEC3C003C0F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7F8DBC92CDDEC3C003C0F13 /* PBXTargetDependency */,
+			);
+			name = LoveMemoUITests;
+			packageProductDependencies = (
+			);
+			productName = LoveMemoUITests;
+			productReference = C7F8DBC72CDDEC3C003C0F13 /* LoveMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F8DB9E2CDDEC3A003C0F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C7F8DBA52CDDEC3A003C0F13 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					C7F8DBBC2CDDEC3C003C0F13 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C7F8DBA52CDDEC3A003C0F13;
+					};
+					C7F8DBC62CDDEC3C003C0F13 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = C7F8DBA52CDDEC3A003C0F13;
+					};
+				};
+			};
+			buildConfigurationList = C7F8DBA12CDDEC3A003C0F13 /* Build configuration list for PBXProject "LoveMemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7F8DB9D2CDDEC3A003C0F13;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7F8DBA72CDDEC3A003C0F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F8DBA52CDDEC3A003C0F13 /* LoveMemo */,
+				C7F8DBBC2CDDEC3C003C0F13 /* LoveMemoTests */,
+				C7F8DBC62CDDEC3C003C0F13 /* LoveMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F8DBA42CDDEC3A003C0F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8DBE62CDDEC60003C0F13 /* Preview Assets.xcassets in Resources */,
+				C7F8DBF92CDDEE97003C0F13 /* MyParticleSnow.sks in Resources */,
+				C7F8DBE72CDDEC60003C0F13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8DBBB2CDDEC3C003C0F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8DBC52CDDEC3C003C0F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F8DBA22CDDEC3A003C0F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8DBE92CDDEC60003C0F13 /* ContentView.swift in Sources */,
+				C7F8DBEA2CDDEC60003C0F13 /* LoveMemo.xcdatamodeld in Sources */,
+				C7F8DBEB2CDDEC60003C0F13 /* LoveMemoApp.swift in Sources */,
+				C7F8DBEC2CDDEC60003C0F13 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8DBB92CDDEC3C003C0F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8DBEF2CDDEC64003C0F13 /* LoveMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8DBC32CDDEC3C003C0F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8DBF32CDDEC68003C0F13 /* LoveMemoUITests.swift in Sources */,
+				C7F8DBF42CDDEC68003C0F13 /* LoveMemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7F8DBBF2CDDEC3C003C0F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F8DBA52CDDEC3A003C0F13 /* LoveMemo */;
+			targetProxy = C7F8DBBE2CDDEC3C003C0F13 /* PBXContainerItemProxy */;
+		};
+		C7F8DBC92CDDEC3C003C0F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F8DBA52CDDEC3A003C0F13 /* LoveMemo */;
+			targetProxy = C7F8DBC82CDDEC3C003C0F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7F8DBD12CDDEC3C003C0F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoveMemo/LoveMemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoveMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = M2DXV97G43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoveMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zluof.LoveMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7F8DBD22CDDEC3C003C0F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoveMemo/LoveMemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoveMemo/Preview Content\"";
+				DEVELOPMENT_TEAM = M2DXV97G43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoveMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zluof.LoveMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7F8DBD32CDDEC3C003C0F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7F8DBD42CDDEC3C003C0F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F8DBD62CDDEC3C003C0F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zluof.LoveMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoveMemo";
+			};
+			name = Debug;
+		};
+		C7F8DBD72CDDEC3C003C0F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zluof.LoveMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveMemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoveMemo";
+			};
+			name = Release;
+		};
+		C7F8DBD92CDDEC3C003C0F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zluof.LoveMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveMemo;
+			};
+			name = Debug;
+		};
+		C7F8DBDA2CDDEC3C003C0F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zluof.LoveMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoveMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F8DBA12CDDEC3A003C0F13 /* Build configuration list for PBXProject "LoveMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8DBD32CDDEC3C003C0F13 /* Debug */,
+				C7F8DBD42CDDEC3C003C0F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F8DBD02CDDEC3C003C0F13 /* Build configuration list for PBXNativeTarget "LoveMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8DBD12CDDEC3C003C0F13 /* Debug */,
+				C7F8DBD22CDDEC3C003C0F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F8DBD52CDDEC3C003C0F13 /* Build configuration list for PBXNativeTarget "LoveMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8DBD62CDDEC3C003C0F13 /* Debug */,
+				C7F8DBD72CDDEC3C003C0F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F8DBD82CDDEC3C003C0F13 /* Build configuration list for PBXNativeTarget "LoveMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8DBD92CDDEC3C003C0F13 /* Debug */,
+				C7F8DBDA2CDDEC3C003C0F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C7F8DBE12CDDEC60003C0F13 /* LoveMemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7F8DBE52CDDEC60003C0F13 /* LoveMemo.xcdatamodel */,
+			);
+			currentVersion = C7F8DBE52CDDEC60003C0F13 /* LoveMemo.xcdatamodel */;
+			path = LoveMemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C7F8DB9E2CDDEC3A003C0F13 /* Project object */;
+}
